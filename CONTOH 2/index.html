@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <h2>Academic Portal</h2>
+
+        <nav>
+            <a href="#" class="active">▦ Dashboard</a>
+            <a href="#">▣ Jadwal Kuliah</a>
+            <a href="#">▤ KRS</a>
+            <a href="#">▧ Hasil Studi</a>
+            <a href="#">▱ Keuangan</a>
+            <a href="#">⚙ Pengaturan</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>Academic Portal</p>
+            <small>Sistem Informasi Akademik</small>
+        </div>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <div>
+                <h1>Dashboard</h1>
+                <p>Selamat datang kembali di portal akademik.</p>
+            </div>
+
+            <div class="profile">
+                <div>
+                    <strong>Nuristya Putri Agustina</strong>
+                    <small>Mahasiswa</small>
+                </div>
+                <img src="C:\Universitas Pancasila\Semester 3\Desain Web\Praktek\PRAK 6\CONTOH 2\image\profile.jpeg" alt="Foto profil Nuristya">
+            </div>
+        </header>
+
+        <section class="welcome">
+            <div>
+                <h2>Halo, Nuristya! 👋</h2>
+                <p>Semoga aktivitas kuliahmu hari ini berjalan lancar.</p>
+            </div>
+            <span class="status">● Mahasiswa Aktif</span>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <p>IPK</p>
+                <h2>3.81</h2>
+                <small>Indeks Prestasi Kumulatif</small>
+            </div>
+
+            <div class="stat-card">
+                <p>Total SKS</p>
+                <h2>88 <span>/ 144</span></h2>
+                <small>SKS yang telah ditempuh</small>
+            </div>
+
+            <div class="stat-card">
+                <p>Mata Kuliah</p>
+                <h2>7</h2>
+                <small>Semester ini</small>
+            </div>
+
+            <div class="stat-card">
+                <p>Status Akademik</p>
+                <h2 class="text-primary">Aktif</h2>
+                <small>Semester berjalan</small>
+            </div>
+        </section>
+
+        <section class="content-grid">
+
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Jadwal Kuliah</h3>
+                    <a href="#">Lihat semua</a>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">
+                        <strong>08.00</strong>
+                        <small>09.40</small>
+                    </div>
+                    <div class="schedule-info">
+                        <h4>Desain Web</h4>
+                        <p>Ruang 301 · Senin</p>
+                    </div>
+                    <span class="schedule-tag">Kuliah</span>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">
+                        <strong>10.00</strong>
+                        <small>11.40</small>
+                    </div>
+                    <div class="schedule-info">
+                        <h4>Basis Data</h4>
+                        <p>Lab Komputer · Senin</p>
+                    </div>
+                    <span class="schedule-tag">Praktikum</span>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">
+                        <strong>13.00</strong>
+                        <small>14.40</small>
+                    </div>
+                    <div class="schedule-info">
+                        <h4>Pemrograman Web</h4>
+                        <p>Ruang 205 · Selasa</p>
+                    </div>
+                    <span class="schedule-tag">Kuliah</span>
+                </div>
+            </div>
+
+            <div class="panel announcement">
+                <h3>Pengumuman</h3>
+
+                <div class="announcement-item">
+                    <span class="announcement-icon">!</span>
+                    <div>
+                        <h4>Pengisian KRS</h4>
+                        <p>Pastikan pengisian KRS sudah selesai sesuai jadwal yang ditentukan.</p>
+                        <small>Informasi Akademik</small>
+                    </div>
+                </div>
+
+                <div class="announcement-item">
+                    <span class="announcement-icon">i</span>
+                    <div>
+                        <h4>Jadwal Ujian</h4>
+                        <p>Periksa jadwal ujian dan persiapkan diri sebelum hari pelaksanaan.</p>
+                        <small>Informasi Akademik</small>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="panel course-panel">
+            <div class="panel-header">
+                <h3>Mata Kuliah Semester Ini</h3>
+                <a href="#">Lihat semua</a>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mata Kuliah</th>
+                            <th>Kode</th>
+                            <th>SKS</th>
+                            <th>Dosen</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Desain Web</td>
+                            <td>TI201</td>
+                            <td>3</td>
+                            <td>Pak Andi</td>
+                            <td><span class="badge">Berjalan</span></td>
+                        </tr>
+                        <tr>
+                            <td>Basis Data</td>
+                            <td>TI202</td>
+                            <td>3</td>
+                            <td>Bu Rina</td>
+                            <td><span class="badge">Berjalan</span></td>
+                        </tr>
+                        <tr>
+                            <td>Pemrograman Web</td>
+                            <td>TI203</td>
+                            <td>3</td>
+                            <td>Pak Budi</td>
+                            <td><span class="badge">Berjalan</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Academic Portal · Dashboard Mahasiswa</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
